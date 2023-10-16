@@ -13,17 +13,25 @@
       background-size: cover;
     }
     .header_nav {
+      z-index: 999;
       width: 100%;
-      height: 100px;
+      height: 120px;
       display: flex;
       justify-content: space-between;
       background-color: rgba($color: #414040, $alpha: 1);
+      position: absolute;
+      bottom: 0;
       .btn_nav {
+        display: flex;
         width: 33%;
         height: 100%;
         background-color: rgba($color: #000000, $alpha: 1);
         color: rgba($color: #ffffff, $alpha: 1);
         border-radius: 10px;
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        padding: 1px;
       }
     }
   }
