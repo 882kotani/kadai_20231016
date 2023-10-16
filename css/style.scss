@@ -12,10 +12,21 @@
       background-image: url("/img/bg.jpg");
       background-size: cover;
     }
+    .header_title {
+      width: 50%;
+      height: 85%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 999;
+      background-color: rgba($color: #f67d7d, $alpha: 0.5);
+      backdrop-filter: blur(3px);
+    }
     .header_nav {
       z-index: 999;
       width: 100%;
-      height: 120px;
+      // height: 120px;
+      height: 15%;
       display: flex;
       justify-content: space-between;
       background-color: rgba($color: #414040, $alpha: 1);
