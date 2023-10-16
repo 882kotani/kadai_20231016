@@ -1,0 +1,30 @@
+.container {
+  height: 100vh;
+  width: 100%;
+
+  #header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    .img_bg {
+      width: 100%;
+      height: 100%;
+      background-image: url("/img/bg.jpg");
+      background-size: cover;
+    }
+    .header_nav {
+      width: 100%;
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      background-color: rgba($color: #414040, $alpha: 1);
+      .btn_nav {
+        width: 33%;
+        height: 100%;
+        background-color: rgba($color: #000000, $alpha: 1);
+        color: rgba($color: #ffffff, $alpha: 1);
+        border-radius: 10px;
+      }
+    }
+  }
+}
